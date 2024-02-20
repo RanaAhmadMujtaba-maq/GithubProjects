@@ -1,0 +1,31 @@
+
+
+#row {
+    border: 2px solid white;
+}
+
+.col, .col-4, .col-6, .col-8, .col-12{
+    border:2px solid rgb(240, 240, 241);
+}
+
+#ro1 {
+    background-color: blue;
+}
+#ro2 {
+    background-color: rgb(41, 209, 91);
+}
+#ro3 {
+    background-color: rgb(143, 134, 8);
+}
+#ro4 {
+    background-color: rgb(202, 132, 26);
+}
+#ro5 {
+    background-color: rgb(194, 14, 155);
+}
+#ro6 {
+    background-color: rgb(231, 28, 1);
+}
+#ro7 {
+    background-color: rgb(9, 171, 224);
+}

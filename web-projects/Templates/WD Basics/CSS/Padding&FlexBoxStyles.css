@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+}
+
+.menu{
+    background-color: red;
+    height: 135px;
+}
+
+.menu div{
+    display: inline;
+    float: left;
+    background-color: red;
+    font-size: 40px;
+    width: 41%;
+    margin-left: 40px;
+}
+
+.menu ul li{
+    display: inline;
+    margin-left: 8%;
+}
+
+.menu ul{
+    padding: 57px 0px 0px 0px;
+    font-size: 25px;
+}
+
+.menu2 ul li{
+    display: inline-block;
+    color: black;
+    padding: 10px 60px 30px 40px;
+    font-size: 25px;
+}
+
+.menu2{
+    background-color: white;
+
+}
+
+.date {
+    background-color: black;
+    color: white;
+    padding: 15px 50px 15px 40px;
+    border-color: red;
+}
+
+img{
+    width: 100%;
+}
+
+.flex-container ul {
+    display: flex;
+    flex: row;
+    font-size: 20px;
+  }
+
+.flex-container li{
+    margin-right: 50px;
+}
+
+.flex-container-2{
+    display: flex;
+    flex: row;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.flex-container-2 >div {
+    margin-right: 40px;
+}

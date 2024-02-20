@@ -1,0 +1,66 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ahmad\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\ahmad\AppData\Local\Microsoft\WindowsApps;;C:\Users\ahmad\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ahmad\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\ahmad\AppData\Local\Yarn\Cache\v6\npm-jsc-android-245459.0.0-e584258dd0b04c9159a27fb104cd5d491fd202c9-integrity\node_modules\jsc-android\dist\org\webkit\android-jsc-intl\r245459\android-jsc-intl-r245459.aar' -> 'C:\Users\ahmad\Downloads\wp-clone-main\node_modules\jsc-android\dist\org\webkit\android-jsc-intl\r245459\android-jsc-intl-r245459.aar'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-masked-view/masked-view": "0.2.5",
+      "@react-navigation/material-top-tabs": "^6.0.6",
+      "@react-navigation/native": "^6.0.6",
+      "@react-navigation/stack": "^6.0.11",
+      "expo": "~43.0.0",
+      "expo-asset": "~8.4.3",
+      "expo-constants": "~12.1.3",
+      "expo-contacts": "~10.0.3",
+      "expo-image-picker": "~11.0.3",
+      "expo-status-bar": "~1.1.0",
+      "firebase": "^9.1.3",
+      "nanoid": "^3.1.30",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-native": "0.64.2",
+      "react-native-easy-grid": "^0.2.2",
+      "react-native-gesture-handler": "~1.10.2",
+      "react-native-get-random-values": "~1.7.0",
+      "react-native-gifted-chat": "^0.16.3",
+      "react-native-image-viewing": "^0.2.1",
+      "react-native-pager-view": "5.4.6",
+      "react-native-safe-area-context": "3.3.2",
+      "react-native-screens": "~3.8.0",
+      "react-native-tab-view": "^3.1.1",
+      "react-native-web": "0.17.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

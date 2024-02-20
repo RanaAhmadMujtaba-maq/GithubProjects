@@ -1,0 +1,11 @@
+ .btnn {
+    background-color: red;
+    border-color: red;
+    box-shadow: none;
+}
+
+.table {
+    margin-left: 5px;
+    margin-right: -5px;
+
+}
