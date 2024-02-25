@@ -61,7 +61,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Game Developer"}
-            detail={"Unity, C#, Game-Scripting, OOP, DSA"}
+            detail={"Unity C# Scripting, Game Logic, Debugging and Animation"}
           />
         </motion.div>
         {/* 3rd */}
@@ -74,7 +74,7 @@ const Services = () => {
             emoji={Humble}
             heading={"Other Languages"}
             detail={
-              "Java, C++, C"
+              "Java, C++, C, C#"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

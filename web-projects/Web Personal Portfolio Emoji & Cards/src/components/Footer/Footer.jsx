@@ -10,8 +10,8 @@ const Footer = () => {
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%", height: 700 }} />
       <div className="f-content" id="text">
-        <span><br /><br />Github: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; github.com/ahmadmujaba-23/web-projects
-        <br /><br />Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rahmadmujtaba.maq@gmail.com 
+        <span><br /><br />Github: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https://github.com/RanaAhmadMujtaba-maq/GithubProjects
+        <br /><br />Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ahmadmujtaba.786.maq@gmail.com 
         <br /><br />LinkedIn: &nbsp;&nbsp; linkedin.com/in/ahmad-mujtaba-maq
         <br /><br />Phone No: &nbsp; +923204176894</span>
         <div className="f-icons">

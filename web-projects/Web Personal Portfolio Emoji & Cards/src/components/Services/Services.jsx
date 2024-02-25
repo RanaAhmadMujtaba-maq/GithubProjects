@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './Ahmad Mujtaba Web Resume.pdf';
+import Resume from './Ahmad Mujtaba WG Resume.pdf';
 
 const Services = () => {
   // context
@@ -24,8 +24,8 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span style={{ color: darkMode ? "white" : "" }}>My Awesome Services</span>
+        <span></span>
         <spane>
           Unlock the potential of your digital dreams with my services. 
           <br /> As a beginner web developer, I offer fresh perspectives and a hunger to innovate. 
@@ -89,7 +89,7 @@ const Services = () => {
             emoji={Humble}
             heading={"Tools"}
             detail={
-              "VS Code, MS Project, Jira, Viso, Figma"
+              "Unity, VS Code, MS Project, Jira, Viso, Figma"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

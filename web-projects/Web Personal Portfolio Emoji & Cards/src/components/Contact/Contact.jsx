@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-form" id="contact">
+    <div className="contact-form" id="contact" style={{paddingTop: 800}}>
       {/* left side copy and paste from work section */}
       <div className="w-left">
         <div className="awesome">

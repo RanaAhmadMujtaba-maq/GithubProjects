@@ -30,17 +30,17 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
           <span>Ahmad Mujtaba</span>
           <span>
-          Aspiring web developer with a passion for crafting captivating and user-friendly digital experiences. Eager to learn and grow, I'm diving into the world of coding with enthusiasm. Currently honing my skills in HTML, CSS, React, MongoDB, Express, NodeJS and JavaScript to create innovative web solutions. Ready to collaborate and contribute to the ever-evolving web landscape.          </span>
+          Welcome to my portfolio! I'm a dedicated software engineer with a primary focus on web development, possessing a rich background in crafting intuitive and dynamic digital experiences. Proficient in front-end technologies such as HTML, CSS, and JavaScript, along with expertise in modern frameworks like React.js and Angular, I excel in building responsive and feature-rich web applications. With a keen eye for design and a commitment to delivering seamless user experiences, I specialize in architecting scalable back-end solutions using Node.js and Express.js, ensuring optimal performance and reliability. Additionally, I have a passion for game development, where I leverage tools like Unity to create immersive gaming experiences. While my primary focus is on web development, my experience in game development has honed my problem-solving skills and creativity, enabling me to approach web projects with a fresh perspective. I'm excited to showcase my web projects and eager to contribute my expertise to future endeavors that push the boundaries of what's possible on both the web and in gaming.          </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>
         </Link>
         {/* social icons */}
-        <div className="i-icons">
+        {/* <div className="i-icons">
           <img src={Github} alt="" />
           <img src={LinkedIn} alt="" />
           <img src={Instagram} alt="" />
-        </div>
+        </div> */}
       </div>
       {/* right image side */}
       <div className="i-right">
@@ -62,7 +62,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={crown} text1="Software" text2="Developer" />
         </motion.div>
 
         {/* animation */}
