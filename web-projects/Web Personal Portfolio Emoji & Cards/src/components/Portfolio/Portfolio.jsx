@@ -14,6 +14,8 @@ import soccer from "../../img/football.jpeg";
 import solar from "../../img/MilkyWayPanorama8K.jpg";
 import fpsconfig from "../../img/fps config.webp";
 import cube from "../../img/Cube.jpg";
+import WhatsApp from "./media/whatsapp.png";
+import Commerse from "./media/e-commerce site.png";
 // Import images
 import img1 from "./media/CHOSS ACTION.png";
 import img2 from "./media/DAILY REWARD.png";
@@ -35,6 +37,7 @@ import img17 from "./media/Tour Explorer Presentation (2).png";
 import img18 from "./media/Tour Explorer Presentation (3).png";
 import img19 from "./media/Tour Explorer Presentation (4).png";
 import img20 from "./media/Tour Explorer Presentation (5).png";
+import UniChat from "./media/unichat.png";
 
 // Import videos
 import video1 from "./media/5video.mp4";
@@ -42,6 +45,7 @@ import video2 from "./media/10video.mp4";
 
 import script1 from './scripts/PlayerEvents.cs';
 import slides1 from './media/Tour Explorer Presentation .pptx';
+import APK from './media/Wedding Run @30 jan.apk';
 
 import { themeContext } from "../../Context";
 const Portfolio = () => {
@@ -178,18 +182,39 @@ const Portfolio = () => {
         <a href={script1} download>
           <button className="button s-button" >Download Sample Script</button>
         </a>
+        <a href={APK} download>
+          <button className="button s-button" >Download Wedding Run APK</button>
+        </a>
       </div>
 
       <span style={{color: darkMode?'white': 'orange', paddingTop: 150, fontSize: 40}}>My Project Portfolio</span>
 
       {/* slider */}
       <Swiper
-        spaceBetween={1}
-        slidesPerView={5}
+        spaceBetween={100}
+        slidesPerView={3}
         grabCursor={true}
-        className="portfolio-slider"
+        className="portfolio2"
         style={{paddingBottom: 350}}
       >
+        <SwiperSlide>
+          <img src={UniChat} alt="" />
+          <div className="text" id="text">
+                UniChat
+          </div>
+        </SwiperSlide>  
+        <SwiperSlide>
+          <img src={WhatsApp} alt="" />
+          <div className="text" id="text">
+                WhatsApp Clone
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Commerse} alt="" />
+          <div className="text" id="text">
+            E-Commerse Site    
+          </div>
+        </SwiperSlide>        
         <SwiperSlide>
           <img src={Aligator} alt="" />
           <div className="text" id="text">

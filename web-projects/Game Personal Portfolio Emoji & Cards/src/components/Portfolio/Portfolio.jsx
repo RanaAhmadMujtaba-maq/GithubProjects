@@ -35,6 +35,7 @@ import video1 from "./media/5video.mp4";
 import video2 from "./media/10video.mp4";
 
 import script1 from './scripts/PlayerEvents.cs';
+import APK from './media/Wedding Run @30 jan.apk';
 
 import { themeContext } from "../../Context";
 const Portfolio = () => {
@@ -118,16 +119,19 @@ const Portfolio = () => {
         <a href={script1} download>
           <button className="button s-button" >Download Sample Script</button>
         </a>
+        <a href={APK} download>
+          <button className="button s-button" >Download Wedding Run APK</button>
+        </a>
       </div>
 
       <span style={{color: darkMode?'white': '', paddingTop: 150}}>My Project Portfolio</span>
 
       {/* slider */}
       <Swiper
-        spaceBetween={1}
-        slidesPerView={5}
+        spaceBetween={100}
+        slidesPerView={3}
         grabCursor={true}
-        className="portfolio-slider"
+        className="portfolio2"
         style={{paddingBottom: 350}}
       >
         <SwiperSlide>
